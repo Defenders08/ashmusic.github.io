@@ -10,10 +10,22 @@ a {
 	color: #E0E0E0;
 	text-decoration: none;
 }
-
+button {
+	color: #e0e0e0;
+    background: #000;
+    border: 1px solid #363636;
+    padding: 7px;
+    transition: 0.50s;
+    cursor: pointer;
+    font-family: "FuturaLight";
+}
+button:hover {
+	transform: scale(1.1);
+	transition: 0.50s;
+}
 @font-face {
 font-family: "FuturaLight"; 
-src: url("res/fonts/Futura Light Italic.otf") format("truetype"); 
+src: url("res/fonts/futuralightc.otf") format("truetype"); 
 font-style: normal; 
 font-weight: normal; 
 }
@@ -25,6 +37,9 @@ font-weight: normal;
 	padding-bottom: 0;
 	font-weight: bold;
     font-size: 25px;
+}
+.header a:hover {
+	text-decoration: underline;
 }
 .search {
 	background: #000;
@@ -38,7 +53,7 @@ font-weight: normal;
     color: #9b9b9b;
     margin-top: -1px;
     width: 200px;
-    margin-left: 10px;
+    margin-left: 6px;
 }
 .music-box {
 	display: flex;
@@ -98,4 +113,23 @@ font-weight: normal;
 	margin-left: 0;
 	margin-top: 10px;
 }
+}
+
+.new {
+	padding: 20px;
+}
+.str {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.new-input input {
+	background: #000;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "FuturaLight";
+    width: 301px;
+    color: #9b9b9b;
+    width: 200px;
+    margin-left: -2px;
 }
