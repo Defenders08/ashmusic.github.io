@@ -1,13 +1,21 @@
 body {
 	background: #000;
 	color: #E0E0E0;
-	font-family: Georgia;
+	/*font-family: Georgia;*/
+	font-family: "FuturaLight";
 	margin: 0;
 }
 input, textarea, select, button, a {outline:none;}
 a {
 	color: #E0E0E0;
 	text-decoration: none;
+}
+
+@font-face {
+font-family: "FuturaLight"; 
+src: url("res/fonts/Futura Light Italic.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
 }
 
 .header {
@@ -24,7 +32,8 @@ a {
     /* border-bottom: 1px solid #4a4a4a; */
     font-size: 25px;
     font-weight: bold;
-    font-family: Georgia;
+    /*font-family: Georgia;*/
+    font-family: "FuturaLight";
     width: 301px;
     color: #9b9b9b;
     margin-top: -1px;
